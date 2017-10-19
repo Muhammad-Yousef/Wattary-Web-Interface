@@ -1,0 +1,23 @@
+/**** Start defult Color ****/
+.navbar-nav > li > .dropdown-menu
+{
+        border-top: 1px solid #403ce6;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu .divider
+{
+    background-color: #403ce6;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-brand
+
+{
+    color:#6E828A
+}
+
+/**** End defult Color ****/

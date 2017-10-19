@@ -1,0 +1,43 @@
+/* media ََQuiry */
+
+@media(max-width:768px)
+{
+    h1,h2,p,.lead
+    {
+        font-size: 20px;
+    }
+    .navbar-nav
+    {
+      margin-top: 0
+    }
+    .navbar-nav > li > a
+    {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height: none;
+    }
+
+
+}
+
+
+@media(min-width:769px)and (max-width:991px)
+{
+
+}
+
+@media(min-width:992px)and (max-width:1199px)
+{
+
+
+}
+
+
+@media(max-width:1200px)
+{
+
+}

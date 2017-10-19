@@ -1,0 +1,108 @@
+/* Start Overriding Bootstrap */
+
+body
+{
+
+    overflow-y: hidden;
+    /*background-color: black;*/
+}
+h1,h2,h3,h4,h5,.lead
+{
+    font-family:'Droid Sans', sans-serif;
+}
+
+
+
+/* Start Navbar*/
+
+
+/* Active link*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+ .navbar-inverse .navbar-nav > li > a:focus
+ {
+   color: #71ADB5;
+   -webkit-transition: all .2s ease-in-out;
+   -moz-transition: all .2s ease-in-out;
+   -o-transition: all .2s ease-in-out;
+   transition: all .2s ease-in-out;
+ }
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
+{
+    color: #71ADB5;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+/* change color for link */
+.navbar-inverse
+{
+    background-color: #D8DFE2;
+    border-color: #FFF;
+    /*opacity: 0.8*/
+}
+
+/* Brand Name */
+.navbar-inverse .navbar-brand
+{
+
+    font-size: 25px;
+    font-family: fantasy;
+    line-height: 25px;
+}
+.container .navbar-brand, .navbar >
+.container-fluid .navbar-brand
+{
+  color: black;
+}
+
+
+
+/* Dropdawn menu */
+ .navbar-nav > li > .dropdown-menu
+{
+    background-color: #0a0404;
+    color: white;
+    min-width: 180px
+}
+
+.dropdown-menu > li > a
+{
+    color: white;
+    padding: 5px 20px;
+
+
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    color: white;
+    padding-left: 25px;
+    -webkit-transition: padding .3s ease-in-out;
+    -Moz-transition: padding .3s ease-in-out;
+    -O-transition: padding .3s ease-in-out;
+    transition: padding .3s ease-in-out;
+}
+
+
+.navbar-right .dropdown-menu
+{
+    left: 0;
+}
+
+.navbar-nav > li > a
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px
+}
+
+
+/* End Navbar*/
