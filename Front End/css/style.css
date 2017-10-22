@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,.lead
 .navbar-inverse
 {
     background-color: #D8DFE2;
-    border-color: #FFF;
+    /*border-color: initial;*/
     /*opacity: 0.8*/
 }
 
@@ -106,3 +106,99 @@ h1,h2,h3,h4,h5,.lead
 
 
 /* End Navbar*/
+
+
+/* Style for index page */
+
+
+
+
+
+/* Start of Slider */
+/* width of photo */
+.carousel-inner > .item > img
+{
+    width: 100%;
+    height: 550px;
+    opacity: 0.9;
+}
+
+
+
+
+.carousel-caption
+{
+    padding-bottom: 130px;
+
+}
+.carousel-caption h1
+{
+    font-size: 40px;
+    font-family: cursive;
+}
+.carousel-caption .lead
+{
+    font-size: 23px;
+    font-family:cursive
+}
+
+.carousel-indicators li
+{
+    height: 13px;
+    width: 13px;
+    margin: 18px 0;
+    border: 1px solid black
+}
+.carousel-indicators .active
+{
+    margin: 18px 0;
+    height: 15px;
+    width: 15px;
+    background-color:#eee
+}
+
+.carousel-indicators .item
+/* End of Slider */
+
+
+
+/* End style for index page */
+
+
+
+/* Style for Get Started page */
+
+.soon
+{
+    /*background: url("../imges/-3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 350px;*/
+
+}
+.soon .son
+{
+    background-color: rgba(9,9,9,0.7);
+    min-height: 350px;
+    padding-top: 161px;
+    padding-bottom: 51px;
+    color: #ddd;
+}
+.soon p
+{
+    margin-bottom: 60px;
+}
+
+/* End style for Get Started page */
+
+
+/* Style for Team page */
+
+/* End style for Team page */
+
+
+/* Style for Contact page */
+
+/* End style for Contact page */

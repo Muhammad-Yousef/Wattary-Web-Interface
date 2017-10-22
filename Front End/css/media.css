@@ -20,13 +20,32 @@
     {
         max-height: none;
     }
-
+    /*.carousel-caption
+    {
+      display: none;
+    }
+    .carousel-caption h1
+    {
+      font-size: 25px
+    }
+    .carousel-caption .lead
+    {
+      font-size: 18px
+    }*/
 
 }
 
 
-@media(min-width:769px)and (max-width:991px)
+@media(max-width:991px)
 {
+  .carousel-caption h1
+  {
+    font-size: 25px
+  }
+  .carousel-caption .lead
+  {
+    font-size: 18px
+  }
 
 }
 
