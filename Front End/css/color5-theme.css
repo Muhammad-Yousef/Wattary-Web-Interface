@@ -1,24 +1,22 @@
-/**** Start defult Color ****/
-.navbar-nav > li > .dropdown-menu
+/**** Start color5 Color ****/ .navbar-nav > li > .dropdown-menu
 {
-        border-top: 1px solid #71ADB5;
+        border-top: 1px solid 	#172035;
 }
 .testmonials .carousel-indicators li
 {
-    border: 1PX solid #71ADB5
+    border: 1PX solid 	#172035
 }
 .opt-box .color
 {
-    border: 3px solid #71ADB5;
+    border: 3px solid 	#172035;
 }
-
 .opt-box .color ul li,
 .opt-box .gear-option,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 
 {
-    background-color: #71ADB5;
+    background-color: 	#172035;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -28,9 +26,8 @@
 .opt-box .gear-option,
 .features .feat span,
 .features h2
-
 {
-    color: #71ADB5;
+    color: 	#172035
 }
 
-/**** End defult Color ****/
+/**** End color5 Color ****/

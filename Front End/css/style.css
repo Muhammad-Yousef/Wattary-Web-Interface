@@ -2,9 +2,7 @@
 
 body
 {
-
     overflow-y: hidden;
-    /*background-color: black;*/
 }
 h1,h2,h3,h4,h5,.lead
 {
@@ -108,6 +106,45 @@ h1,h2,h3,h4,h5,.lead
 /* End Navbar*/
 
 
+
+
+/*Start of Box*/
+
+.opt-box
+{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 9999
+}
+.opt-box .color
+{
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+.opt-box .color ul li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer
+}
+.opt-box .gear-option
+{
+    padding: 5px;
+    /*color: #fff;*/
+    cursor: pointer;
+}
+
+/*End of Box*/
+
+
+
 /* Style for index page */
 
 
@@ -160,7 +197,45 @@ h1,h2,h3,h4,h5,.lead
 .carousel-indicators .item
 /* End of Slider */
 
+/* Start of featuers */
 
+.features
+{
+
+    /*background-color: #ddd;*/
+    padding: 40px 0;
+}
+.features .feat
+{
+    border: 1px solid #ddd;
+    padding: 30px;
+    box-shadow: 10px 10px 5px #DDD;
+    margin-bottom: 30px;
+}
+.features h2
+{
+    margin: 40px 0;
+}
+
+.features .feat p
+{
+    line-height: 2em
+}
+.features .feat span
+{
+    font-size: 35px;
+    margin-bottom: 12px;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.features .feat span:hover
+{
+        transform:rotatez(720deg);
+
+}
+/* End of featuers */
 
 /* End style for index page */
 
