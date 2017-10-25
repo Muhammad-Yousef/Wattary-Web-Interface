@@ -44,7 +44,8 @@ h1,h2,h3,h4,h5,.lead
 {
     background-color: #D8DFE2;
     /*border-color: initial;*/
-    /*opacity: 0.8*/
+    /*opacity: 0.9;*/
+    /*z-index: 100000000000000;*/
 }
 
 /* Brand Name */
@@ -137,7 +138,7 @@ h1,h2,h3,h4,h5,.lead
 .opt-box .gear-option
 {
     padding: 5px;
-    /*color: #fff;*/
+    color: #fff;
     cursor: pointer;
 }
 
