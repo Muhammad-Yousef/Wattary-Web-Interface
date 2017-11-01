@@ -12,9 +12,9 @@
     border: 3px solid 	#ffab00;
 }
 .opt-box .color ul li,
-.opt-box .gear-option,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
+.scroll-up
 
 {
     background-color: 	#ffab00;
@@ -26,7 +26,9 @@
 .navbar-inverse .navbar-brand,
 .opt-box .gear-option,
 .features .feat span,
-.features h2
+.features h2,
+.repo h1,
+.repo .git a
 {
     color	:#ffab00
 }

@@ -39,6 +39,32 @@
       left: 0;
     }
 
+    .features .feat h3
+    {
+      font-size: 25px
+    }
+    .features h2
+    {
+      font-size: 30px;
+    }
+    .features .feat p
+    {
+      font-size: 15px;
+    }
+
+    .repo h1
+    {
+        font-size: 25px;
+    }
+    .repo .lead
+    {
+        font-size: 15px;
+    }
+    .repo .git a i
+    {
+      font-size: 60px;
+    }
+
 
 @media(max-width:991px)
 {

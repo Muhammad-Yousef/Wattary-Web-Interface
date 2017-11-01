@@ -14,10 +14,15 @@ $(document).ready(function(){
 
 $(document).ready(function(){
      $(".gear-option").click(function(){
-         $(".color").toggle(3000);
+         $(".color").show(3000);
      });
 });
 
+$(document).ready(function(){
+     $(".color").mouseleave(function(){
+         $(".color").hide(3000);
+     });
+});
 
 
     // for change The color
@@ -28,7 +33,7 @@ $(document).ready(function(){
     .eq(0).css("backgroundColor","#71ADB5").end()
     .eq(1).css("backgroundColor","#ffab00").end()
     .eq(2).css("backgroundColor","#964f8e").end()
-    .eq(3).css("backgroundColor","#568564").end()
+    .eq(3).css("backgroundColor","#7FB414").end()
     .eq(4).css("backgroundColor","#172035");
 
     ColorLi.click(function(){
@@ -37,22 +42,22 @@ $(document).ready(function(){
     });
 
     // for Scroll Up
-    // var scroll = $(".scroll-up")
-    // $(window).scroll(function(){
-    //
-    //     if($(this).scrollTop()>=700)
-    //     {
-    //         scroll.fadeIn();
-    //     }
-    //     else
-    //     {
-    //         scroll.fadeOut();
-    //     }
-    //     // animate for scroll
-    //
-    // });
-    //     $(scroll).click(function(){
-    //         $("html,body").animate({scrollTop:0},2000)
-    //     });
+    var scroll = $(".scroll-up")
+    $(window).scroll(function(){
+
+        if($(this).scrollTop()>=700)
+        {
+            scroll.fadeIn();
+        }
+        else
+        {
+            scroll.fadeOut();
+        }
+        // animate for scroll
+
+    });
+        $(scroll).click(function(){
+            $("html,body").animate({scrollTop:0},2000)
+        });
 
 });

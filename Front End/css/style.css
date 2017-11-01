@@ -238,6 +238,52 @@ h1,h2,h3,h4,h5,.lead
 }
 /* End of featuers */
 
+/* Start of repo */
+.repo
+{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background: #F5F5F5
+}
+.repo h1
+{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.repo p
+{
+    margin-bottom: 30px
+}
+.repo .git a
+{
+  /*color: black;*/
+}
+
+.repo .git a i
+{
+  font-size: 120px;
+}
+/* End of repo */
+
+/* Start of scroll */
+
+.scroll-up
+{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    position:fixed;
+    right: 15px;
+    bottom: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+/* End of scroll */
+
 /* End style for index page */
 
 
