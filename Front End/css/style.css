@@ -2,7 +2,7 @@
 
 body
 {
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,.lead
 {
@@ -285,42 +285,157 @@ h1,h2,h3,h4,h5,.lead
 /* End of scroll */
 
 /* End style for index page */
+/* Style for Get Started page *
 
+/* Start of Supcraipe */
 
-
-/* Style for Get Started page */
-
-.soon
+.sup
 {
-    /*background: url("../imges/-3.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 350px;*/
-
+    padding: 40px 0 ;
+    background: #eee
 }
-.soon .son
+.sup .download
 {
-    background-color: rgba(9,9,9,0.7);
-    min-height: 350px;
-    padding-top: 161px;
-    padding-bottom: 51px;
-    color: #ddd;
+  padding: 50px 0;
 }
-.soon p
+.sup h1
 {
-    margin-bottom: 60px;
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.sup p
+{
+    margin-bottom: 20px
 }
 
-/* End style for Get Started page */
+.sup .btn
+{
+    border-radius: 0
+}
+
+/* End of Supcraipe */
+
+/* Start of app screens */
+#Our-app
+{
+  padding: 40px 0;
+  background-color: #393939;
+  color: white;
+}
+#Our-app .section-heading h2
+{
+  padding: 0 10px;
+  font-size: 55px;
+}
+#Our-app .section-heading h3
+{
+  margin: 30px 0 30px 0;
+  font-style: oblique;
+}
+/* End of app screens */
+
+/* Start of app details */
+
+#details
+{
+  padding: 40px 0;
+  background-color: #71ADB5
+}
+#details .pic1, .pic2, .pic3
+{
+  padding: 20px 0;
+}
+.owl-theme .owl-dots .owl-dot
+{
+  margin: 25px 0 -25px 0;
+}
+/* End of app details */
+
+/* Start of app features */
+#Features
+{
+  background-color: white;
+}
+#Features .features h2
+{
+  font-size: 45px;
+}
+#Features .features h3
+{
+  padding: 0 0 30px 0;
+  font-size: 25px;
+  font-style: oblique;
+}
+
+/* End of app features */
+/*Start of Footer*/
+#footer {
+  padding: 50px 0;
+  color: #7f7f7f;
+  background-color: #D8DFE2;
+}
+#footer .copyright {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
 
 
-/* Style for Team page */
 
-/* End style for Team page */
+.social {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.social li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.social li a {
+  font-size: 16px;
+  display: table;
+  width: 40px;
+  height: 40px;
+  margin: 0 4px;
+}
+.social li a i {
+  display: table-cell;
+  vertical-align: middle;
+}
+.social li a:hover, .social li a:active, .social li a:focus {
+  text-decoration: none;
+  border-bottom: none;
+}
+.social li a.social-box {
+  background: #71ADB5;
+  color: #fff;
+}
+.social li a.social-circle {
+  background: #71ADB5;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.social li a:hover {
+  background: #393e46 ;
+}
+.social.social-box a {
+  background: #71ADB5;
+  color: #fff;
+}
+.social.social-circle a {
+  background: #71ADB5;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
 
-
-/* Style for Contact page */
-
-/* End style for Contact page */
+/*End of footer*/
