@@ -19,7 +19,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-     $(".color").mouseleave(function(){
+     $(".color").click(function(){
          $(".color").hide(1000);
      });
 });
@@ -61,7 +61,6 @@ $(document).ready(function(){
         });
 
 });
-
 
 
 // Carousel Feature Slide

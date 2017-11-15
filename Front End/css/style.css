@@ -333,23 +333,64 @@ h1,h2,h3,h4,h5,.lead
   margin: 30px 0 30px 0;
   font-style: oblique;
 }
-/* End of app screens */
 
-/* Start of app details */
 
-#details
+
+
+
+
+
+
+
+#about
 {
-  padding: 40px 0;
-  background-color: #71ADB5
+    background-color:#71ADB5;
+    color: Black;
+    padding: 20px;
+
 }
-#details .pic1, .pic2, .pic3
+/*#about .Me
 {
-  padding: 20px 0;
-}
-.owl-theme .owl-dots .owl-dot
+    margin-bottom: 0px;
+}*/
+#about .how
 {
-  margin: 25px 0 -25px 0;
+      padding: 160px 0 0px 0;
 }
+#about h3
+{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+#about p
+{
+    color: grey;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#about.spacer
+{
+    /*padding-left: 4em;
+    padding-right: 4em;*/
+    /*padding: 30px 0 0px 0;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* End of app details */
 
 /* Start of app features */

@@ -2,6 +2,10 @@
 
 @media(max-width:768px)
 {
+  body
+  {
+    overflow-x: hidden;
+  }
     h1,h2,p,.lead
     {
         font-size: 20px;
@@ -65,7 +69,40 @@
       font-size: 60px;
     }
 
+    #Our-app .section-heading h2
+    {
+      font-size: 30px
+    }
+    #Our-app .section-heading h3
+    {
+      font-size: 20px;
+      font-style: oblique;
+    }
+    #about .how
+    {
+          padding: 60px 0 0px 0;
+    }
+    #about .me
+    {
+          padding: 5px 0 0px 0;
+    }
+    #about .me img
+    {
+      width: 150px;
+      height: 250px;
+    }
+    #about .how p
+    {
+      font-size: 15px;
+    }
+    #about .how p
+    {
+      font-size: 15px;
+      display: none;
+    }
 
+
+}
 @media(max-width:991px)
 {
   .carousel-caption h1
@@ -75,6 +112,15 @@
   .carousel-caption .lead
   {
     font-size: 18px
+  }
+  #details .animate-box img
+  {
+    width: 50%;
+    height: 50%;
+  }
+  #about .how
+  {
+        /*padding: 0px 0 0px 0;*/
   }
 
 }
