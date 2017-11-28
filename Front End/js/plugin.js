@@ -34,7 +34,7 @@ $(document).ready(function(){
     .eq(1).css("backgroundColor","#ffab00").end()
     .eq(2).css("backgroundColor","#964f8e").end()
     .eq(3).css("backgroundColor","#7FB414").end()
-    .eq(4).css("backgroundColor","#172035");
+    .eq(4).css("backgroundColor","#12648c");
 
     ColorLi.click(function(){
         $("link[href*='theme']").attr("href",$(this).attr("data-value"));

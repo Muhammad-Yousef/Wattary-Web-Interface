@@ -15,7 +15,8 @@
 .opt-box .color ul li,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
-.scroll-up
+.scroll-up,
+.social.social-circle a
 
 {
     background-color: #71ADB5;
@@ -29,7 +30,9 @@
 .features .feat span,
 .features h2,
 .repo h1,
-.repo .git a
+.repo .git a,
+.sup h1,
+#about p
 
 {
     color: #71ADB5;

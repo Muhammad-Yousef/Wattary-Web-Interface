@@ -334,17 +334,9 @@ h1,h2,h3,h4,h5,.lead
   font-style: oblique;
 }
 
-
-
-
-
-
-
-
-
 #about
 {
-    background-color:#71ADB5;
+    background-color:#D8DFE2;
     color: Black;
     padding: 20px;
 
@@ -359,7 +351,7 @@ h1,h2,h3,h4,h5,.lead
 }
 #about h3
 {
-    color: black;
+    color: #363333;
     font-size: 25px;
     font-weight: bold;
 }
@@ -465,6 +457,10 @@ h1,h2,h3,h4,h5,.lead
 }
 .social li a:hover {
   background: #393e46 ;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 .social.social-box a {
   background: #71ADB5;

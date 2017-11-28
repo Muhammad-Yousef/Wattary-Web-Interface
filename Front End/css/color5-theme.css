@@ -1,22 +1,23 @@
 /**** Start color5 Color ****/ .navbar-nav > li > .dropdown-menu
 {
-        border-top: 1px solid 	#172035;
+        border-top: 1px solid 	#12648c;
 }
 .testmonials .carousel-indicators li
 {
-    border: 1PX solid 	#172035
+    border: 1PX solid 	#12648c
 }
 .opt-box .color
 {
-    border: 3px solid 	#172035;
+    border: 3px solid 	#12648c;
 }
 .opt-box .color ul li,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
-.scroll-up
+.scroll-up,
+.social.social-circle a
 
 {
-    background-color: 	#172035;
+    background-color: 	#12648c;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -27,9 +28,11 @@
 .features .feat span,
 .features h2,
 .repo h1,
-.repo .git a
+.repo .git a,
+.sup h1,
+#about p
 {
-    color: 	#172035
+    color: 	#12648c
 }
 
 /**** End color5 Color ****/
