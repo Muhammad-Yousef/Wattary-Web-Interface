@@ -16,8 +16,8 @@
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .scroll-up,
-.social.social-circle a
-
+.social.social-circle a,
+.info a button
 {
     background-color: #71ADB5;
 }
@@ -32,7 +32,8 @@
 .repo h1,
 .repo .git a,
 .sup h1,
-#about p
+#about p,
+.info h2 span,p span
 
 {
     color: #71ADB5;

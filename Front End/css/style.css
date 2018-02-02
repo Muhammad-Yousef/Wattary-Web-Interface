@@ -172,12 +172,13 @@ h1,h2,h3,h4,h5,.lead
 .carousel-caption h1
 {
     font-size: 40px;
-    font-family: cursive;
+    font-family: arial;
+    padding: 0 0 45px 0;
 }
 .carousel-caption .lead
 {
     font-size: 23px;
-    font-family:cursive
+    font-family:arial
 }
 
 .carousel-indicators li
@@ -314,14 +315,13 @@ h1,h2,h3,h4,h5,.lead
     border-radius: 0
 }
 
-/* End of Supcraipe */
+/* End of Supscraipe */
 
 /* Start of app screens */
 #Our-app
 {
-  padding: 40px 0;
-  background-color: #393939;
-  color: white;
+  padding: 40px 0 0 0;
+  background-color: #393939
 }
 #Our-app .section-heading h2
 {
@@ -402,6 +402,55 @@ h1,h2,h3,h4,h5,.lead
 }
 
 /* End of app features */
+
+
+
+/*Start of Agent page*/
+.Agent
+{
+    background:url("../imges/1.jpg") no-repeat center center fixed;
+    min-height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.Agent .wattary
+{
+    background-color:rgba(2,2,2,0.7);
+    min-height: 600px;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wattary .info
+{
+    margin: 200px 0 0 0;
+}
+.wattary .info h2
+{
+    font-size: 40px;
+    font-family: Arial;
+}
+.wattary .info p
+{
+    font-size: 30px;
+    padding: 25px 0 0 0;
+    font-family: arial;
+}
+.info h2 span,p span
+{
+    color: #71ADB5;
+}
+.info a button
+{
+    margin: 25px 0 0px 0;
+    width: 200px;
+    border-radius: 0;
+    border: 0;
+}
+/*End of Agent page*/
+
 /*Start of Footer*/
 #footer {
   padding: 50px 0;

@@ -101,6 +101,19 @@
       font-size: 15px;
       display: none;
     }
+    .wattary .info
+    {
+      margin: 140px 0 0 0;
+    }
+    .wattary .info h2
+    {
+      font-size: 40px;
+    }
+    .wattary .info p
+    {
+      font-size: 25px ;
+    }
+
 
 
 }
