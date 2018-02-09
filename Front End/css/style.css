@@ -106,9 +106,6 @@ h1,h2,h3,h4,h5,.lead
 
 /* End Navbar*/
 
-
-
-
 /*Start of Box*/
 
 .opt-box
@@ -144,12 +141,7 @@ h1,h2,h3,h4,h5,.lead
 
 /*End of Box*/
 
-
-
 /* Style for index page */
-
-
-
 
 
 /* Start of Slider */
@@ -448,8 +440,40 @@ h1,h2,h3,h4,h5,.lead
     width: 200px;
     border-radius: 0;
     border: 0;
+    font-family: revert;
 }
 /*End of Agent page*/
+
+
+/*Start of Chat Box */
+
+.chat .contact
+{
+    background-color: lightgray;
+    min-height: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #ddd;
+    margin: 100px 0 0 0;
+}
+
+.chat input
+{
+    height: 150px;
+    padding: 50px 20px;
+    border:none;
+}
+.FM .btn
+{
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    top: -14px;
+    border-radius: 0;
+
+}
+
+/*End of Chat Box*/
 
 /*Start of Footer*/
 #footer {
