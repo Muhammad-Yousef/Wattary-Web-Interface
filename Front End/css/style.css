@@ -446,31 +446,56 @@ h1,h2,h3,h4,h5,.lead
 
 
 /*Start of Chat Box */
-
-.chat .contact
+.form-group
 {
-    background-color: lightgray;
-    min-height: 350px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #ddd;
-    margin: 100px 0 0 0;
+    margin: 180px 0;
+}
+.contact-form input {
+    font-size: 25px;
+}
+.contact-form {
+    max-width: 100%;
+    margin: 65px auto
+}
+.contact-form .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+.contact-form .asterisx {
+    height: 0;
+    font-size: 22px;
+    color: #9d9d9d;
+    position: absolute;
+    right: 7px;
+    top: 149px;
 }
 
-.chat input
-{
-    height: 150px;
-    padding: 50px 20px;
-    border:none;
+.contact-form .message {
+    height: 180px
 }
-.FM .btn
+.contact-form .btn
 {
     padding: 10px;
-    margin: 0;
+    margin: 0 42%;
     position: relative;
-    top: -14px;
+    top: 0;
     border-radius: 0;
+    font-size: 18px;
 
+}
+.error p
+{
+    font-size: 20px;
+    background-color: #FD2E2E;
+    color: #fff;
+    max-width: 420px;
+    display: block;
+    padding: 10px;
+    position: fixed;
+    top:0;
+    right:-100%;
+    z-index: 9999;
+    text-align: center;
 }
 
 /*End of Chat Box*/

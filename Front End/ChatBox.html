@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- for internet explora-->
         <meta name="viewport" content="width=device-width, initial-scale=1"><!-- for mobile cuzes resbonsiv-->
 
-        <title>Home</title>
+        <title>Chat Box</title>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/defult-theme.css">
@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/hover.css">
         <link rel="stylesheet" href="css/animate.css">
-        <link rel="icon" type="image/PNG" href="imges/">
+        <link rel="icon" type="image/30.png" href="imges/30.png">
         <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' >
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -28,23 +28,20 @@
 
     <!--Start of Contact Us-->
 
-    <div class="chat text-center">
-        <div class="contact">
-            <div class="container">
-                <div class="row">
-                    <!--Start of form -->
-                    <form role="form">
-                        <div class="col-md-12 FM wow fadeIn"data-wow-duration="1.5s" data-wow-offset="250">
-                            <div class="form-group">
-                                <input class="form-control input-lg" placeholder="Your Message"></input>
-                            </div>
-                            <button type="button" class="btn btn-primary ">Sent you message</button>
-                        </div>
-                    </form>
+    <div id="section3" class=" wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+        <div class=  "container ">
+            <form class="contact-form">
+                <div class="form-group ">
+                    <ul id="messages"></ul>
+                    <input class="message  form-control" id="myMessage" maxlength="" placeholder="Your Message" name="message"></input>
+                    <span class="asterisx" id="ast">80</span>
                 </div>
-            </div>
+                <button type="button" id="sendbutton" class="btn btn-primary ">Send your message</button>
+            </form>
         </div>
-    </div>
+        <div class="error">
+            <p>You wrote more than 80 characters </p>
+        </div>
 
 
 

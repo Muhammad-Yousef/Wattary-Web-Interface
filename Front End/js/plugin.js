@@ -152,3 +152,46 @@ $(document).ready(function(){
 		owlCarouselScreenshots();
 	});
 }());
+
+// Chat box
+var msg = document.getElementById("myMessage"),
+    num = document.getElementById("ast");
+msg.onkeyup= function () {
+    'use strict';
+    num.textContent= 80 - this.value.length ;
+    if (num.textContent <0)
+    {
+		$(".error p").each(function () {
+			$(this).animate({
+				right:0
+			});
+        });
+        num.style.color="red";
+    }
+    else
+    {
+        $(".error p").each(function () {
+            $(this).animate({
+                right:-600
+            });
+        });
+        num.style.color="#9d9d9d";
+    }
+};
+
+
+//Web Socket
+$(document).ready(function() {
+    var socket = io.connect('http://127.0.0.1:5000');
+    socket.on('connect', function() {
+        socket.send('User has connected!');
+    });
+    socket.on('message', function(msg) {
+        $("#messages").append('<li>'+msg+'</li>');
+        console.log('Received message');
+    });
+    $('#sendbutton').on('click', function() {
+        socket.send($('#myMessage').val());
+        $('#myMessage').val('');
+    });
+});
