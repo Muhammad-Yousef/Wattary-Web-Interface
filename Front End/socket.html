@@ -8,7 +8,19 @@
 <body>
 <script type="text/javascript">
 $(document).ready(function() {
-	var socket = io.connect('https://wattay.herokuapp.com/');
+	//var socket = io.connect();
+
+
+
+	var socket = new io.connect('https://wattay.herokuapp.com/', {
+	    'reconnection': true,
+	    'reconnectionDelay': 1000,
+	    'reconnectionDelayMax' : 5000,
+	    'reconnectionAttempts': 5
+	});
+
+
+
 
 	socket.on('message', function(msg) {
 		$("#messages").append('<li>'+msg+'</li>');
