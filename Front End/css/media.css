@@ -141,6 +141,23 @@
         /*padding: 0px 0 0px 0;*/
   }
 
+  /* chat page */
+  #chat .input-group-btn .btn
+  {
+    -webkit-border-radius: 0 ;
+    -moz-border-radius: 0 ;
+    -o-border-radius: 0 ;
+    border-radius: 0 ;
+    position: relative;
+    left: -2px;
+    height: 34px;
+    width: 48px;
+  }
+  #chat .area .post,.get
+  {
+    width: 69%;
+  }
+
 }
 
 @media(min-width:992px)and (max-width:1199px)

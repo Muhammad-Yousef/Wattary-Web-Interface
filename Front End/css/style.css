@@ -500,6 +500,96 @@ h1,h2,h3,h4,h5,.lead
 
 /*End of Chat Box*/
 
+
+
+
+/* Start of chatting page */
+#chat
+{
+    max-width: 100%;
+    height: 800px;
+}
+#chat h1
+{
+    text-align: center;
+    color: #6e7ee2 ;
+    font-size: 40px;
+    padding: 10px;
+    font-family: Arial;
+}
+#chat .area
+{
+    background-color: #fff;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    /*border: 1px solid lightblue;*/
+}
+#chat .area .post
+{
+    background-color: #ababab;
+    color: #333;
+    padding: 5px 10px;
+    position: relative;
+    top: 10px;
+    left: 3px;
+    -webkit-border-radius: 10px 25px 10px 25px; ;
+    -moz-border-radius: 10px 25px 10px 25px; ;
+    -o-border-radius: 10px 25px 10px 25px; ;
+    border-radius: 10px 25px 10px 25px; ;
+}
+#chat .area .get
+{
+    background-color: #6e7ee2;
+    color: #fff;
+    float: right;
+    padding: 5px 10px;
+    position: relative;
+    top: 35px;
+    right: 3px;
+    -webkit-border-radius: 10px 25px 10px 25px; ;
+    -moz-border-radius: 10px 25px 10px 25px; ;
+    -o-border-radius: 10px 25px 10px 25px; ;
+    border-radius: 10px 25px 10px 25px; ;
+}
+#chat .box
+{
+    width: 70%;
+    margin: 0 auto;
+    /*float: right;*/
+    position: relative;
+}
+#chat .form-control
+{
+    -webkit-border-radius: 0 ;
+    -moz-border-radius: 0 ;
+    -o-border-radius: 0 ;
+    border-radius: 0 ;
+    position: relative;
+    left: -1px;
+}
+#chat .input-group, .form-control
+{
+    width: 101%;
+}
+#chat .input-group-btn .btn
+{
+    -webkit-border-radius: 0 ;
+    -moz-border-radius: 0 ;
+    -o-border-radius: 0 ;
+    border-radius: 0 ;
+    position: relative;
+    left: -6px;
+    height: 34px;
+    width: 48px;
+}
+#chat .input-group-btn .btn .send
+{
+    color: #6e7ee2 ;
+}
+/* End of chat */
+
+
 /*Start of Footer*/
 #footer {
   padding: 50px 0;
