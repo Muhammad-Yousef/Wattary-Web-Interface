@@ -195,3 +195,5 @@ $(document).ready(function() {
         $('#myMessage').val('');
     });
 });
+
+// web chat
