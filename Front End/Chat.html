@@ -28,22 +28,16 @@
 <div id="chat">
     <div class="container">
         <h1>Lets Chat</h1>
-        <div class="message">
             <div class="msg">
-                <ul >
-                    <li class="post">
-                        <p>Hello How are you</p>
-                    </li>
+                <ul class="ch1" >
+
                 </ul>
-            </div>
-            <div class="msg2">
-                <ul >
-                    <li class="get">
-                        <p>Hey .. am fine thanks .. what about u</p>
-                    </li>
+                <ul class="ch2" >
+
                 </ul>
+
             </div>
-        </div>
+        <!--send-->
         <div class="box">
             <form action="">
                 <div class="input-group">
@@ -55,36 +49,26 @@
                 </div>
             </form>
         </div>
+
+         <!--Respond code-->
+
+        <!--<div class="box2">-->
+            <!--<form action="">-->
+                <!--<div class="input-group2">-->
+                    <!--<input type="text" class="form-control2" placeholder="Write your message..." />-->
+                    <!--<div class="input-group-btn2">-->
+                        <!--<button class="btn2 btn-default" type="button"><i class="fa fa-microphone"></i></button>-->
+                        <!--<button class="btn2 btn-default" type="button" ><i class="glyphicon glyphicon-send send"></i></button>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</form>-->
+        <!--</div>-->
     </div>
 </div>
 
 <script>
-
-
-    function newMessage() {
-        msg = $(".input-group input").val();
-        if($.trim(msg) == '') {
-            return false;
-        }
-        $('<li class="sent"><p>' + msg + '</p></li>').appendTo($('.msg ul'));
-        $('.input-group input').val(null);
-        // $('.contact.active .preview').html('<span>You: </span>' + message);
-        $(".msg").animate({ scrollTop: $(document).height() }, "fast");
-    };
-
-    $('.btn').click(function() {
-        newMessage();
-    });
-
-    $(window).on('keydown', function(e) {
-        if (e.which == 13) {
-            newMessage();
-            return false;
-        }
-    });
-
 </script>
-<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<!--<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>-->
 <script src="js/jquery-1.12.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/plugin.js"></script>
