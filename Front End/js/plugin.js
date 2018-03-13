@@ -90,11 +90,12 @@ $(document).ready(function(){
 
 
     function newMessage2() {
-        msg = $(".input-group2 input").val();
-        if($.trim(msg) === '') {
+        // var res =loadXMLDoc.respond;
+
+        if($.trim(loadXMLDoc.respond) === '') {
             return false;
         }
-        $('<li class="sent"><span>' + msg + '</span></li>').appendTo($('.msg .ch2'));
+        $('<li class="sent"><span>' + loadXMLDoc.respond + '</span></li>').appendTo($('.msg .ch2'));
         $('.input-group2 input').val(null);
     };
 
@@ -108,11 +109,23 @@ $(document).ready(function(){
             return false;
         }
     });
-
-
 });
 
-
+function loadXMLDoc() {
+    var msg = document.getElementById("msg");
+    var send = msg.value;
+    alert(send);
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://wattary2.herokuapp.com/main", false);
+    //xhr.open("POST", "http://localhost:5000/analyze", false);
+    xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+    xhr.send(JSON.stringify({"message": send}));
+    var obj = JSON.parse(xhr.response);
+    var respond =obj.message;
+    // newMessage2(respond);
+    alert(respond);
+    document.querySelector(".msg .ch2").innerHTML = respond;
+}
 // Carousel Feature Slide
 
 ;(function () {
