@@ -124,7 +124,7 @@ function loadXMLDoc() {
     var respond =obj.message;
     // newMessage2(respond);
     alert(respond);
-    document.querySelector(".msg .ch2").innerHTML = respond;
+    document.querySelector(".msg .ch2 li span").innerHTML = respond;
 }
 // Carousel Feature Slide
 
