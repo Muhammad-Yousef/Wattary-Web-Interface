@@ -114,7 +114,7 @@ $(document).ready(function(){
 function loadXMLDoc() {
     var msg = document.getElementById("msg");
     var send = msg.value;
-    alert(send);
+//    alert(send);
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "https://wattary2.herokuapp.com/main", false);
     //xhr.open("POST", "http://localhost:5000/analyze", false);
@@ -123,7 +123,7 @@ function loadXMLDoc() {
     var obj = JSON.parse(xhr.response);
     var respond =obj.message;
     // newMessage2(respond);
-    alert(respond);
+//    alert(respond);
     document.querySelector(".msg .ch2 li span").innerHTML = respond;
 }
 // Carousel Feature Slide
@@ -253,9 +253,48 @@ msg.onkeyup= function () {
 //         $("#messages").append('<li>'+msg+'</li>');
 //         console.log('Received message');
 //     });
-//     $('#sendbutton').on('click', function() {
-//         socket.send($('#myMessage').val());
-//         $('#myMessage').val('');
-//     });
-// });
+//     $('#sendfunction startConverting() {
+        
+
+
+// speech to text
+//    var r = document.getElementById('result');  
+
+//var r = document.getElementById("msg").val();
+//var r = document.querySelector(".form-control").val();
+//function startConverting() {
+//        if ('webkitSpeechRecognition' in window) {
+//            var speechRecognizer = new webkitSpeechRecognition();
+//            speechRecognizer.continuous = true;
+//            speechRecognizer.interimResults = true;
+//            speechRecognizer.lang = 'en-IN';
+//            speechRecognizer.start();
+//            var finalTranscripts = '';
+//            speechRecognizer.onresult = function(event) {
+//                var interimTranscripts = '';
+//                for (var i = event.resultIndex; i < event.results.length; i++){
+//                    var transcript = event.results[i][0].transcript;
+//                    transcript.replace("\n", "<br>");
+//                    if (event.results[i].isFinal) {
+//                        finalTranscripts += transcript;
+//                        var speechresult = finalTranscripts;
+//                        console.log(speechresult);
+//                        if (speechresult) {
+//                            responsiveVoice.speak(speechresult, "UK English Female", {
+//                                pitch: 1
+//                            }, {
+//                                rate: 1
+//                            });
+//                        }
+//                    } else {
+//                        interimTranscripts += transcript;
+//                    }
+//                }
+//                r.innerHTML = finalTranscripts + '<span style="color:#999">' + interimTranscripts + '</span>';
+//            };
+//            speechRecognizer.onerror = function(event) {};
+//        } else {
+//            r.innerHTML = 'Your browser is not supported. If google chrome, please upgrade!';
+//        }
+//    }
 

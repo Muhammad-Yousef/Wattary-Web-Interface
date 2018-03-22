@@ -527,7 +527,7 @@ li,ol
 {
     display: block;
     color: #333;
-    font-size: 15px;
+    font-size: 25px;
     padding: 2px ;
     margin: 5px 0px;
     text-align: left;
@@ -540,7 +540,7 @@ li,ol
 }
 #chat .msg .ch1 li span
 {
-    background-color: lightgray;
+/*    background-color: lightgray;*/
     padding: 6px;
     -webkit-border-radius: 10px 25px 10px 25px; ;
     -moz-border-radius: 10px 25px 10px 25px; ;
@@ -551,7 +551,7 @@ li,ol
 {
     display: block;
     padding: 2px;
-    font-size: 15px;
+    font-size: 25px;
     color: #ffffff;
     margin: 0 5px;
     text-align: right;
@@ -562,7 +562,7 @@ li,ol
 }
 #chat .msg .ch2 li span
 {
-    background-color: blue;
+    color: blue;
     padding: 6px;
     -webkit-border-radius: 10px 25px 10px 25px; ;
     -moz-border-radius: 10px 25px 10px 25px; ;
