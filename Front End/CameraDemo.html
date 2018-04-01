@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" />
+<style type="text/css">
+    body {
+        font-family: verdana;
+    }
+    .both{
+        width: 300px;
+        background-color: #ccc;
+        border: 10px solid #ddd;
+        margin: 10px auto;
+    }
+</style>
+    </head>
+    <body>
+        <div class="both">
+            <video id="video" width="400" height="300" ></video>
+        </div>
+        
+    <script>
+        var video = document.getElementById('video');
+        vendorUrl = window.URL || window.webkitURL ;
+        navigator.getMedia = navigator.getUserMedia || navigator.webkitGetUserMedia
+        || navigator.mozGetUserMedia || navigator.msGetUserMedia;
+
+        navigator.getUserMedia({
+            video:true,
+            Audio:false
+        },
+        function(stream){
+           video.src = vendorUrl.createObjectURL(stream);
+           video.play();
+        },
+        function(error){
+
+        });
+    </script>
+</body>
+</html>

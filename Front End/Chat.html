@@ -82,8 +82,8 @@
 
 <script type="text/javascript">
     
-     var r = document.getElementById('result');
-//         msg = document.getElementById('msg');
+     var r = document.getElementById('result'),
+         msg = document.getElementById('msg').val;
     
 
     function startConverting() {
@@ -115,13 +115,13 @@
                     }
                 }
                 r.innerHTML = finalTranscripts + '<span style="color:#999">' + interimTranscripts + '</span>';
-//                msg.innerHTML = finalTranscripts + '<span style="color:#999">' + interimTranscripts + '</span>';
+                msg.innerHTML = finalTranscripts + '<span style="color:#999">' + interimTranscripts + '</span>';
 
             };
             speechRecognizer.onerror = function(event) {};
         } else {
             r.innerHTML = 'Your browser is not supported.';
-//            msg.innerHTML = 'Your browser is not supported. If google chrome, please upgrade!';
+            msg.innerHTML = 'Your browser is not supported. If google chrome, please upgrade!';
         }
     }
     

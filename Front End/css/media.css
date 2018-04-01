@@ -153,10 +153,20 @@
     height: 34px;
     width: 48px;
   }
+/*
   #chat .area .post,.get
   {
     width: 69%;
   }
+*/
+#chat .msg .ch1 li
+    {
+        font-size: 15px
+    }
+#chat .msg .ch2 li
+    {
+        font-size: 15px
+    }
 
 }
 
