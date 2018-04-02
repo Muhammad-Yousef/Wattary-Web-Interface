@@ -9,21 +9,41 @@
         font-family: verdana;
     }
     .both{
-        width: 300px;
+        width: 400px;
         background-color: #ccc;
-        border: 10px solid #ddd;
         margin: 10px auto;
+    }
+   .both #canvas{
+/*        padding: 10px;*/
+    }
+    .both .snap{
+        display: block;
+        margin: 10px 0;
+        padding: 10px 20px;
+        background-color: #323232;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    #video
+    {
+/*        border-radius: 50%;*/
     }
 </style>
     </head>
     <body>
         <div class="both">
-            <video id="video" width="400" height="300" ></video>
+            <video id="video" width="400" height="250" ></video>
+            <a href="#" id="snap" class="snap">Take a photo</a>
+            <canvas id="canvas" width="400" height="250"></canvas>
         </div>
         
     <script>
-        var video = document.getElementById('video');
+        var video = document.getElementById('video'),
+            canvas = document.getElementById('canvas'),
+            conText = canvas.getContext('2d'),
         vendorUrl = window.URL || window.webkitURL ;
+        
         navigator.getMedia = navigator.getUserMedia || navigator.webkitGetUserMedia
         || navigator.mozGetUserMedia || navigator.msGetUserMedia;
 
@@ -38,6 +58,14 @@
         function(error){
 
         });
+        
+        document.getElementById('snap').addEventListener('click',function(){
+           conText.drawImage(video,0,0,400,300) 
+        });
+        
+        
+        
+        
     </script>
 </body>
 </html>
