@@ -7,12 +7,6 @@ $(document).ready(function(){
     // for nice scroll
     $("html").niceScroll();
 
-
-
-    // chat page
-
-
-
 });
 
   //section Animation colors
@@ -242,59 +236,8 @@ msg.onkeyup= function () {
     }
 };
 
-
-//Web Socket
-// $(document).ready(function() {
-//     var socket = io.connect('http://127.0.0.1:5000');
-//     socket.on('connect', function() {
-//         socket.send('User has connected!');
-//     });
-//     socket.on('message', function(msg) {
-//         $("#messages").append('<li>'+msg+'</li>');
-//         console.log('Received message');
-//     });
-//     $('#sendfunction startConverting() {
-        
+// Camera Access
 
 
-// speech to text
-//    var r = document.getElementById('result');  
 
-//var r = document.getElementById("msg").val();
-//var r = document.querySelector(".form-control").val();
-//function startConverting() {
-//        if ('webkitSpeechRecognition' in window) {
-//            var speechRecognizer = new webkitSpeechRecognition();
-//            speechRecognizer.continuous = true;
-//            speechRecognizer.interimResults = true;
-//            speechRecognizer.lang = 'en-IN';
-//            speechRecognizer.start();
-//            var finalTranscripts = '';
-//            speechRecognizer.onresult = function(event) {
-//                var interimTranscripts = '';
-//                for (var i = event.resultIndex; i < event.results.length; i++){
-//                    var transcript = event.results[i][0].transcript;
-//                    transcript.replace("\n", "<br>");
-//                    if (event.results[i].isFinal) {
-//                        finalTranscripts += transcript;
-//                        var speechresult = finalTranscripts;
-//                        console.log(speechresult);
-//                        if (speechresult) {
-//                            responsiveVoice.speak(speechresult, "UK English Female", {
-//                                pitch: 1
-//                            }, {
-//                                rate: 1
-//                            });
-//                        }
-//                    } else {
-//                        interimTranscripts += transcript;
-//                    }
-//                }
-//                r.innerHTML = finalTranscripts + '<span style="color:#999">' + interimTranscripts + '</span>';
-//            };
-//            speechRecognizer.onerror = function(event) {};
-//        } else {
-//            r.innerHTML = 'Your browser is not supported. If google chrome, please upgrade!';
-//        }
-//    }
 

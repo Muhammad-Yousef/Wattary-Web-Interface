@@ -607,6 +607,62 @@ li,ol
 /* End of chat */
 
 
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+
+
+
+/*Start of Sign up*/
+
+
+/*
+.cam canvas{
+    position: relative;
+    top: 200px
+}
+*/
+/*
+.cam .snap
+{
+     display: block;
+        margin: 10px 85px 0 0;
+        padding: 10px 20px;
+}
+*/
+
+/*End of Sign up*/
+
+
+
+.center{
+    text-align: center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Start of Footer*/
 #footer {
   padding: 50px 0;
